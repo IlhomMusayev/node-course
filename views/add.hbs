@@ -1,0 +1,26 @@
+<h3>Add new course</h3>
+
+<form action="/add" method="post">
+    <div class="input-field">
+          <input placeholder="Course name" name="title" id="title" type="text" class="validate" required>
+          <label for="title">Course name</label>
+          <span class="helper-text" data-error="Please add course name"></span>
+
+    </div>
+
+
+    <div class="input-field">
+          <input placeholder="Course price" name="price" id="pirce" type="text" class="validate" required>
+          <label for="price">Course price</label>
+          <span class="helper-text" data-error="Please add course price"></span>
+    </div>
+
+ 
+     <div class="input-field">
+          <input placeholder="Course price" id="img" name="img" type="text" class="validate" required>
+          <label for="img">Url course image</label>
+          <span class="helper-text" data-error="Please add course img url"></span>
+    </div>
+
+    <button class="btn btn-primery">Save course</button>
+</form>
